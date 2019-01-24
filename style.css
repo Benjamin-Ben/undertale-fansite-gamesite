@@ -1,0 +1,529 @@
+@charset "UTF-8";
+@import url('standard.css');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+/*----------basic---------*/
+body{
+	background-color:black;
+	color:white;
+}
+
+#wrapper{
+	max-width:1280px;
+	margin:0 auto;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
+h1, h2, h3{
+	font-family: 'Press Start 2P', cursive;
+}
+
+p{
+	font-family:arial, sans-serif;
+	line-height: 1.5em;
+	font-size:16px;
+}
+
+section{
+	clear:both;
+}
+
+.solid a{
+	color:white;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+/*----------header----------*/
+
+header{
+	clear:both;
+}
+
+
+nav a{
+	color:#444444;
+	transition: 500ms;
+}
+
+nav a:hover{
+	color:white;
+}
+
+h1{
+	text-align:center;
+	display:block;
+	margin: 30px 0 10px 0;
+	font-size:40px;
+}
+
+nav ul{
+	margin: 3%;
+}
+
+nav li{
+	list-style: none;
+	float:left;
+	font-family:'Press Start 2P', cursive;
+	padding:10px 20px;
+	font-size:35px;
+}
+
+/*----------Home----------*/
+#story h2{
+	text-align:center;
+	font-size:30px;
+	margin: 40px 0 7px 0;
+	transition:500ms;
+}
+
+#story h2:hover{
+	color:yellow;
+}
+
+#story h2:active{
+	color:darkred; 
+/* K-I-L-L-O-R-B-E-K-I-L-L-E-D RIGHT, FLOWEY????? :) 9999999999999C99999999999H9999999999999999999A9999999999999999999R9999999999999A9999999999999 */
+}
+
+.storytext{
+	margin: 0 4% 2% 4%;
+}
+
+.notlast{
+	transition: 500ms;
+}
+
+.notlast:hover{
+	color:red;
+}
+
+.notlast:active{
+	color:black;
+}
+
+#video{
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+#video iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#understand{
+	color:black; /*A......s....r.....i.....e.......l*/
+}
+
+
+/*----------Characters----------*/
+.stats{
+	margin:3% 0;
+}
+
+.stats img{
+	display:block;
+	margin:0 auto;
+	padding: 10px;
+	border: solid white 2px;
+}
+
+.stats p{
+	text-align:center;
+	font-size:16px;
+	font-family:'Press Start 2P', cursive;
+	padding: 1% 0;
+	border: white solid 2px;
+	transition:400ms;
+}
+
+.ctextleft{
+	margin:8% 0 0 15%;
+	padding:0 0 0 20px;
+}
+
+.ctextright{
+	margin:8% 15% 0 0;
+	padding:0 20px 0 0;
+}
+
+
+/*_______Character Specials_______*/
+
+/*Don't Underestimate Sans*/
+#dunkedon img:active{
+	opacity:0;
+}		/*~G~A~S~T~E~R~*/
+/*Don't Underestimate Sans*/
+
+#papy:hover{
+	color:orange;
+}
+#papydmg:hover{
+	color:blue;
+}
+
+#undy:hover{
+	color:green;
+}
+
+#undydmg:hover{
+	color:#25D600;
+}
+
+#tory:hover{
+	color:#CC58FF;
+}
+
+#torydmg:hover{
+	color:#9900FF;
+}
+
+#asgy:hover{
+	color:yellow;
+}
+
+#asgydmg:hover{
+	color:#632021;
+}
+
+.asgore-Soul:hover{
+	color:red;
+}
+
+
+/* :) */
+#c-someone{
+	opacity: 0;
+}
+
+#c-someone:active{
+	opacity: 1;
+}
+
+.someone{
+	color:red;
+}
+
+#h-someone{
+	margin-bottom:7%;
+}
+
+#h-someone p{
+	font-family:'Press Start 2P', cursive;
+	color:red;
+	opacity: 0.25;
+	transition: 500ms;
+}
+
+#h-someone p:hover{
+	opacity: 0.5;
+}
+
+
+#h-someone p:active{
+	opacity: 1;
+}
+
+/*---HIT---*/
+.hit:active{
+	color:red;
+}
+
+.hitsans:hover{
+	color:#9E0002;
+}
+
+/*----------Gallery----------*/
+#gallerysite{
+	margin:0 auto;
+}
+
+#gallerysite img{
+	display:block;
+	margin:0% auto;
+	padding-top: 5%;
+}
+
+#friskflowers:active{
+	filter: grayscale(90%);
+}
+
+#friends:active{
+	opacity: 0.4;
+	filter: grayscale(100%);
+}
+
+#YOU-CANT-HIT-SANS:active{
+	opacity:0;
+}
+
+
+
+/*----------Reviews----------*/
+
+.right-review{
+	margin: 5% 0;
+	border-top:white solid 2px;
+	border-left:white solid 2px;
+	border-bottom:white solid 2px;
+	padding:2% 5% 1% 2%;
+}
+
+.right-review h2{
+	font-size:50px;
+	margin-bottom:2px;
+}
+
+.left-review{
+	margin: 5% 0;
+	border-top:white solid 2px;
+	border-right:white solid 2px;
+	border-bottom:white solid 2px;
+	padding:2% 2% 1% 10.5%;
+
+}
+
+.left-review h2{
+	font-size:50px;
+	margin-bottom:2px;
+}
+
+a .red{
+	color:red;
+	font-size:12px;
+	transition:120ms;
+}
+
+a .red:hover{
+	color: #960002;
+}
+
+/*----------About----------*/
+#about-box{
+	height:auto;
+	border:white solid 2px;
+	display:block;
+	margin:3% auto;
+	padding-bottom:50px;
+}
+
+#about-box h2{
+	text-align: center;
+	font-size:40px;
+	padding: 20px 0 5px 0;
+	margin:3% 0;
+	transition: 500ms;
+
+}
+
+#about-box h2:hover{
+	color:yellow;
+}
+
+#about-box h2:active{
+	color:red; 
+	transition: none;
+}
+
+#about-text{
+	display:block;
+	margin:0 auto;
+}
+
+#about-text p{
+	padding-bottom: 20px;
+}
+
+#killing:active{
+	color:red; /*Do NOT kill ~ Sans*/
+}
+
+
+.frisk{
+	float:left;
+	margin: 0 3%;
+}
+
+
+.frisk:active{
+	filter:grayscale(100%);
+}
+
+/*table (Developers)*/
+#developers h2{
+	text-align:center;
+	font-size:30px;
+	padding: 60px 0 7px 0;
+	
+	transition:500ms;
+}
+
+
+#developers h2:hover{
+	color:yellow;
+}
+
+#developers h2:active{
+	color:red;
+	transition:none;
+}
+
+#developers table{
+	width:82%;
+	margin:0 auto 10% auto;
+	border-collapse: collapse;
+}
+
+#developers td{
+	font-size:14px;
+	font-family: 'Press Start 2P', cursive;
+	padding: 15px;
+	border: white 2px solid;
+	text-align:center;
+}
+
+.table-toby{
+	transition:400ms;
+}
+
+.table-toby:hover{
+	color:aqua;
+}
+
+/*----------footer----------*/
+footer{
+	clear:both;
+	text-align:center;
+	margin: 50px 0 30px 0;
+}
+
+footer a{
+	font-size:20px;
+	transition: 200ms;
+}
+
+footer a:hover{
+	color:red;
+}
+
+#copyright{
+	font-size:10px;
+	margin-top: 15px;
+}
+
+#tobyfox{
+	transition: 700ms;
+}
+
+#tobyfox:hover{
+	color:aqua;
+}
+
+
+@media screen and (max-width: 1300px){
+
+	nav li{
+		float:none;
+		text-align:center;
+		margin:0;
+	}
+
+	nav .right, nav .left{
+		float:none;
+	}
+
+
+}
+
+@media screen and (max-width: 1200px){
+
+	.right-review h2{
+		font-size: 30px;
+	}
+
+	.left-review h2{
+		font-size: 30px;
+	}
+
+}
+
+
+@media screen and (max-width: 800px){
+	.storytext{
+		margin:0;
+		padding: 0 20px;
+	}
+	
+	[class*="col"]{
+		width:97%;
+	}
+
+	.frisk{
+		display:none;
+	}
+	
+	.stats{
+		width:50%;
+		height:auto;
+		margin:6% auto 1.5% auto;
+		float:none;
+	}
+	
+	.ctextleft, .ctextright{
+		float:none;
+		padding:0;
+		margin:0 auto;
+		width:97%;
+	}
+	
+	#about-box{
+		margin:0 auto;
+	}
+	
+}
+
+@media screen and (max-width: 700px){
+
+	.right-review h2{
+		font-size: 20px;
+	}
+
+	.left-review h2{
+		font-size: 20px;
+	}
+	
+	#developers td{
+		font-size:10px;
+		line-height:2em;
+	}
+	
+}
+
+@media screen and (max-width: 450px){
+	
+	h1{
+		font-size:30px;
+	}
+	
+	nav li{
+		font-size:25px;
+	}
+	
+}
